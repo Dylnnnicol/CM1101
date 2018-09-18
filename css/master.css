@@ -1,0 +1,23 @@
+html{
+  background-color: #4d4d4d;
+}
+
+.one{
+  position: relative;
+  background: #2d2d2d;
+  color:#fff;
+  height: 200px;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0pc;
+  padding: 0pc;
+}
+
+.one > h1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 5pc;
+}
